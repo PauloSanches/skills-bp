@@ -131,6 +131,36 @@
           "sha256": "fe8d13f436730cc6140d8c81b14d3a5ea7276675fe5b60696e4ccb3b7d284bb7"
         }
       }
+    },
+    {
+      "name": "i-have-adhd",
+      "repository": "https://github.com/ayghri/i-have-adhd",
+      "commit": "1ecea1993b7fce257ffbd686c070948b5e07eda6",
+      "upstream_path": "skills/i-have-adhd",
+      "license": "MIT",
+      "modifications": [],
+      "files": {
+        "skills/i-have-adhd/LICENSE": {
+          "upstream_path": "LICENSE",
+          "git_blob_sha": "19db5f1b0ca65e277c158bd4c4263139ccfd859c",
+          "sha256": "8acbb618089b738404f76ac60fca1aaa995d9a87995eddf95f0b777acd7f7d2c"
+        },
+        "skills/i-have-adhd/SKILL.md": {
+          "upstream_path": "skills/i-have-adhd/SKILL.md",
+          "git_blob_sha": "6c42757ffae37e442adfb52fbba2a8609f1cff00",
+          "sha256": "88955c019bbb1419ff4b49dbb1f80a867467de6233d7865af2e06a7d7b76c7d3"
+        },
+        "skills/i-have-adhd/agents/gemini.toml": {
+          "upstream_path": "skills/i-have-adhd/agents/gemini.toml",
+          "git_blob_sha": "a7d766c9dbf5188f3adadfe59cbf6aa1de3bc4ca",
+          "sha256": "5108a6123beb9df24846e0dd3f902c652d18522dfbc56e5762032ea383041c62"
+        },
+        "skills/i-have-adhd/agents/openai.yaml": {
+          "upstream_path": "skills/i-have-adhd/agents/openai.yaml",
+          "git_blob_sha": "0e8285b9bb854e7ee4c25f4c48f593a87e9eb85d",
+          "sha256": "2c51291283dcefdca43ca6b0c08172f225c7c26a9783ec444d6bdfa51ca96f8f"
+        }
+      }
     }
   ]
 }
