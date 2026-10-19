@@ -13,6 +13,7 @@ O conteúdo é versionado no GitHub. A instalação é local a cada projeto; nã
 | `mcp-builder` | Construir e avaliar servidores MCP | `anthropics/skills`, `skills/mcp-builder` | Apache-2.0 |
 | `python-performance-optimization` | Medir e otimizar desempenho de Python | `sickn33/agentic-awesome-skills`, `skills/python-performance-optimization` | MIT |
 | `i-have-adhd` | Adaptar respostas para leitores com TDAH, mediante ativação explícita | `ayghri/i-have-adhd`, `skills/i-have-adhd` | MIT |
+| `copy-editing` | Rever, melhorar e atualizar copy de marketing existente | `coreyhaines31/marketingskills`, `skills/copy-editing` | MIT |
 
 O primeiro link fornecido é o repositório do Skills CLI; a skill pública correspondente é `find-skills`. Não importamos os workflows internos de triagem desse repositório nem todas as skills das outras coleções.
 
@@ -26,7 +27,7 @@ Pré-requisitos do caminho testado: Git e Node.js >= 22.20.0. Execute **na raiz 
 # Inspecionar o catálogo sem instalar.
 npx --yes skills@1.7.2 add PauloSanches/skills-bp --list
 
-# Instalar as cinco skills apenas neste projeto, no diretório comum .agents/skills.
+# Instalar as seis skills apenas neste projeto, no diretório comum .agents/skills.
 npx --yes skills@1.7.2 add PauloSanches/skills-bp --agent universal --skill '*' --copy --yes
 ```
 
@@ -55,6 +56,8 @@ Obtenha uma revisão deste repositório e copie apenas os diretórios pretendido
 
 `i-have-adhd` é uma skill opt-in: invoque `/i-have-adhd` num harness compatível ou peça explicitamente ao agente para ler e aplicar o seu `SKILL.md`. A instalação não ativa o modo nem instala os plugins, hooks ou extensões opcionais do upstream.
 
+`copy-editing` inclui as referências e os exemplos de avaliação upstream; as menções a outras skills são sugestões opcionais, não pacotes incluídos. Apenas esta skill de `coreyhaines31/marketingskills` integra o catálogo.
+
 ## Proveniência, integridade e atualizações
 
 `sources.lock.json` regista o commit upstream, o caminho original, a licença e os hashes de **cada ficheiro importado**, incluindo licenças e notices. É o manifesto desta base; não é o `skills-lock.json` gerado pelo Skills CLI num projeto consumidor.
@@ -69,4 +72,4 @@ As cópias vendorizadas não seguem `main` automaticamente. Para atualizar:
 
 Para reproduzir exatamente uma instalação, use um checkout deste repositório num commit conhecido e passe o caminho local ao mesmo comando `skills add`, em vez de resolver o ramo remoto novamente.
 
-As cinco skills são distribuídas sob as licenças upstream indicadas em `THIRD_PARTY.md` e nos respetivos diretórios. A validação da distribuição não equivale a uma auditoria integral nem a testar todas as funcionalidades dos runtimes descritos.
+As seis skills são distribuídas sob as licenças upstream indicadas em `THIRD_PARTY.md` e nos respetivos diretórios. A validação da distribuição não equivale a uma auditoria integral nem a testar todas as funcionalidades dos runtimes descritos.

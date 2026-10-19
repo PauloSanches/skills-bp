@@ -11,6 +11,7 @@ Este projeto utiliza skills de `PauloSanches/skills-bp`, instaladas localmente e
 | `.agents/skills/mcp-builder/SKILL.md` | Implementar ou avaliar servidores MCP |
 | `.agents/skills/python-performance-optimization/SKILL.md` | Investigar desempenho de Python |
 | `.agents/skills/i-have-adhd/SKILL.md` | Adaptar o formato das respostas para TDAH, apenas quando o utilizador ativar explicitamente este modo |
+| `.agents/skills/copy-editing/SKILL.md` | Rever, melhorar ou atualizar copy de marketing existente, preservando a mensagem e a voz |
 
 Antes de uma tarefa, leia somente as skills instaladas e relevantes; carregue recursos associados conforme necessário. Remova desta tabela as skills que não instalou.
 
